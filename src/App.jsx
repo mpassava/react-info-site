@@ -1,13 +1,10 @@
 import { useState } from 'react'
-import logo from './assets/react.svg'
-import './App.css'
 
 function App() {
   return (
-    <div>
-      <img src={logo} width={40} />
-      <h1>Fun facts about React</h1>
-      <ul>
+    <div className='container'>
+      <h1 className='title'>Fun facts about React</h1>
+      <ul className='fact-items'>
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
         <li>Has well over 100K stars on Github</li>
@@ -18,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

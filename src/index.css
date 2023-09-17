@@ -1,4 +1,54 @@
 html, body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
+}
+
+.nav-img {
+  width: 65px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+
+}
+
+.nav-items > li {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  background-color: #dbdbdb;
+  width: 100%;
+  height: 1.5rem;
+}
+
+.footer > small {
+  padding-left: 10px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.fact-items > li {
+  margin-bottom: 5px;
 }
